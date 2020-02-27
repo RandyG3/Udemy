@@ -15,3 +15,19 @@ print(pages)
 
 test = set("zyx")
 print(test)
+
+print("*" * 20)
+
+gatorade_flavors = {"blue", "red", "orange"}
+powerade_flavors = {"red", "green", "yellow"}
+print(gatorade_flavors.intersection(powerade_flavors))
+print(gatorade_flavors.difference(powerade_flavors))
+print(gatorade_flavors.symmetric_difference(powerade_flavors))
+print(gatorade_flavors.union(powerade_flavors))
+
+juice_flavors = {"Lemon", "Peach", "Raspberry", "Apple"}
+tea_flavors = {"Peach", "Grape", "apple"}
+print(juice_flavors & tea_flavors)
+print(juice_flavors | tea_flavors)
+print(juice_flavors ^ tea_flavors)
+print(juice_flavors - tea_flavors)

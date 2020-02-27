@@ -1,7 +1,7 @@
 candy_bars = {"Milky Way", "Snickers", "100 Grand"}
 sweet_things = {"Sour Patch Kids", "Reeses Pieces", "Snickers"}
 
-# return he overlapping elements (in both sets only)
+# return the overlapping elements (in both sets only)
 
 print(candy_bars.intersection(sweet_things))
 
