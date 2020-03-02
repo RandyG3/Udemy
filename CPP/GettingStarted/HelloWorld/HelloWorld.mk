@@ -6,15 +6,15 @@
 ProjectName            :=HelloWorld
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
-WorkspacePath          :=C:/Users/randy/Documents/GIT/CPP/GettingStarted
-ProjectPath            :=C:/Users/randy/Documents/GIT/CPP/GettingStarted/HelloWorld
+WorkspacePath          :=C:/Users/randy/Documents/GIT/Udemy/CPP/GettingStarted
+ProjectPath            :=C:/Users/randy/Documents/GIT/Udemy/CPP/GettingStarted/HelloWorld
 IntermediateDirectory  :=../build-$(ConfigurationName)/HelloWorld
 OutDir                 :=../build-$(ConfigurationName)/HelloWorld
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=randy
-Date                   :=28/02/2020
+Date                   :=29/02/2020
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 ../build-$(ConfigurationName)/HelloWorld/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/HelloWorld/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/randy/Documents/GIT/CPP/GettingStarted/HelloWorld/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/randy/Documents/GIT/Udemy/CPP/GettingStarted/HelloWorld/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 ../build-$(ConfigurationName)/HelloWorld/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/HelloWorld/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/HelloWorld/main.cpp$(DependSuffix) -MM main.cpp
 
