@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\randy\Documents\GIT\Udemy\CPP\VisualStudio19\Section05\BasicIO\main.cpp(23,9): warning C4101: 'num2': unreferenced local variable
+  BasicIO.vcxproj -> C:\Users\randy\Documents\GIT\Udemy\CPP\VisualStudio19\Section05\BasicIO\Debug\BasicIO.exe
