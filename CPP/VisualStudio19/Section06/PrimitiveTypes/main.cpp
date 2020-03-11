@@ -9,7 +9,7 @@ int main() {
     /***********************************************
      *  Character type
      **********************************************/
-    char middle_initial{ 'J' };  // Notice the single quotes around characters
+    char middle_initial{ 'J' };  // Notice the single quotes around characters; "" = error!
     cout << "My middle initial is " << middle_initial << endl;
 
     /***********************************************
@@ -46,7 +46,7 @@ int main() {
     /***********************************************
     *  Boolean type
     **********************************************/
-    bool game_over{ false };
+    bool game_over{ false }; // False = 0; True = 1
     cout << "The value of gameOver is " << game_over << endl;
 
     /***********************************************

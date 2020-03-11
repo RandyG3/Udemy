@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\randy\Documents\GIT\Udemy\CPP\VisualStudio19\Section06\PrimitiveTypes\main.cpp(37,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+  PrimitiveTypes.vcxproj -> C:\Users\randy\Documents\GIT\Udemy\CPP\VisualStudio19\Section06\Challenge\Debug\PrimitiveTypes.exe
