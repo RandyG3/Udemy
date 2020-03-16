@@ -114,7 +114,31 @@ int main() {
 	cout << "dimes    : " << dimes << endl;
 	cout << "nickels  : " << nickels << endl;
 	cout << "pennies  : " << pennies << endl;
+	cout << "=================================" << endl;
+
+	balance = dollars = quarters = dimes = nickels = pennies = 0; // reset all to zero
+
+	dollars = change_amount / dollar_value;
+	balance = change_amount % dollar_value;
+
+	quarters = balance / quarter_value;
+	balance %= quarter_value;
+
+	dimes = balance / dime_value;
+	balance %= dime_value;
+
+	nickels = balance / nickel_value;
+	balance %= nickel_value;
+
+	pennies = balance;
+
+	cout << "\nYou can provide this change as follows : " << endl;
+	cout << "dollars  : " << dollars << endl;
+	cout << "quarters : " << quarters << endl;
+	cout << "dimes    : " << dimes << endl;
+	cout << "nickels  : " << nickels << endl;
+	cout << "pennies  : " << pennies << endl;
+	cout << "=================================" << endl;
+
     return 0;
 }
-
-

@@ -44,24 +44,23 @@ int main() {
     if (length > max_dimension_length || width > max_dimension_length || height > max_dimension_length) {
         cout << "Sorry, package rejected - dimension exceeded" << endl;
     } else {
-        double package_cost {};
-        package_volume= length * width * height;
+        double package_cost{};
+        package_volume = length * width * height;
         package_cost = base_cost;
-        
+
         if (package_volume > tier2_threshold) {
             package_cost += package_cost * tier2_surcharge;
-            cout << " adding tier 2 surcharge" << endl;
-        } else if ( package_volume > tier1_threshold) {
+            cout << "Adding Tier2 surcharge" << endl;
+        } else if (package_volume > tier1_threshold) {
             package_cost += package_cost * tier1_surcharge;
-            cout << " adding tier 1surcharge" << endl;
+            cout << "Adding Tier1 surcharge" << endl;
         }
-        
-        cout << fixed << setprecision(2); // prints dollars nicely
-        cout << "The volume of your package is: " << package_volume << endl;
-        cout << "Your package will cost $" << package_cost << " to ship " << endl;
-        
-    }
+
+        cout << fixed << setprecision(2); // Print dollars nicely
+        cout << "The volume of the package is: " << package_volume << endl;
+        cout << "Your package will cost $" << package_cost << " to ship." << endl;
+        }
+
     cout << endl;
     return 0;
 }
-
